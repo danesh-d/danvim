@@ -7,7 +7,7 @@ set lazyredraw
 set showmatch
 set viminfo='20,<1000  " Max 1000 lines are stored in the buffer.
 
-set tabstop=8          " Tabs are at proper location.
+set tabstop=2          " Tabs are at proper location.
 set expandtab          " Don't use actual tab character (ctrl-v).
 set shiftwidth=2       " Indenting is 2 spaces.
 set autoindent         " Turns it on.
