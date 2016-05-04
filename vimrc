@@ -18,6 +18,7 @@ hi clear
 colorscheme elflord
 
 syntax on              " Turn the syntax highlighting on.
+"colorscheme distinguished
 filetype indent on
 
 " Highlight the chars in lines longer than 80 chars.
