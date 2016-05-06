@@ -16,9 +16,9 @@ set cindent            " Stricter rules for C programs..
 
 hi clear
 colorscheme elflord
+"colorscheme distinguished
 
 syntax on              " Turn the syntax highlighting on.
-"colorscheme distinguished
 filetype indent on
 
 " Highlight the chars in lines longer than 80 chars.

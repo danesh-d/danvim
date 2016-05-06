@@ -9,7 +9,8 @@ If you wish to use "distinguished" color scheme, simply copy the file
 
 "colorscheme distinguished
 
-in the ".vimrc" file inlcuded in this repository.
+and commment any other color scheme that has been in use before in the ".vimrc"
+file inlcuded in this repository.
 
 That's it! Enjoy!
 
