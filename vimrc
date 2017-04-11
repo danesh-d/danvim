@@ -22,6 +22,6 @@ syntax on              " Turn the syntax highlighting on.
 filetype indent on
 
 " Highlight the chars in lines longer than 80 chars.
-highlight OverLength ctermbg=red ctermfg=white guibg=#59292
+highlight OverLength ctermbg=red ctermfg=white guibg=#FFFFFF
 match OverLength /\%81v.\+/
 
