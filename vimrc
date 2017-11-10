@@ -15,6 +15,8 @@ set smartindent          " Does the right thing (mostly) in programs.
 set cindent              " Stricter rules for C programs..
 set bs=indent,eol,start  " Backspace over everything in insert mode
 
+au BufWinEnter * let w:m1=matchadd('Todo', 'HACK\|BUG\|REVIEW\|FIXME\|TODO\|NOTE', -1)
+
 hi clear
 colorscheme elflord
 "colorscheme distinguished
