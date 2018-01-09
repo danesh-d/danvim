@@ -29,3 +29,7 @@ filetype indent on
 highlight OverLength ctermbg=red ctermfg=white guibg=#FFFFFF
 match OverLength /\%81v.\+/
 
+" Remember the last position of the cursor when a file is re-opened.
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+endif
