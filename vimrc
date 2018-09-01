@@ -15,6 +15,7 @@ set smartindent          " Does the right thing (mostly) in programs.
 set cindent              " Stricter rules for C programs..
 set hlsearch             " Highlight all search results
 set bs=indent,eol,start  " Backspace over everything in insert mode
+set ruler                " Show current row, column, and page percentage.
 
 au BufWinEnter * let w:m1=matchadd('Todo', 'HACK\|BUG\|REVIEW\|FIXME\|TODO\|NOTE', -1)
 
